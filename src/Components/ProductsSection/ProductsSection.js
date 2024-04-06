@@ -58,9 +58,7 @@ export default function ProductsSection() {
   return (
     <>
 
-
     {contextData.allProducts.map((productSection )=>(
-
     <>
    <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
