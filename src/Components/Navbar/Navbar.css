@@ -1,0 +1,40 @@
+.navbar {
+    background-color: var(--dark);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-content__left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: var(--main-red);
+    transition: 0.4s;
+}
+
+.nav-item .nav-link {
+    color: var(--main-white);
+}
+.bag{
+    display: flex;
+    position: relative;
+}
+.bag span{
+    position: absolute;
+    top: -3px;
+    right: 0;
+    transform: translate(140%, 2px);
+    width: 20px;
+    height: 20px;
+    background-color: var(--main-white);
+    color: var(--main-red);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
