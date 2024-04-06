@@ -17,7 +17,7 @@ export default function ProductsSection() {
 
   const showToast = (product) => {
     contextData.setIsShowToast(true);
-    //بعد از سه ثانیه تست پنهان میشود
+  
     setTimeout(() => {
       contextData.setIsShowToast(false);
     }, 3000);
